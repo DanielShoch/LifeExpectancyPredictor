@@ -1,0 +1,71 @@
+/* Font used: font-family: 'Rubik', sans-serif; */
+/* Colors used: #222831 #393e46 #00adb5 #eeeeee */
+
+
+body {
+  background-color: #eeeeee;
+}
+
+/* Fonts */
+
+h1, h2, h3, p, label, select, button {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #222831;
+}
+
+h2 {
+  font-size: 3em;
+  color: #222831;
+  text-decoration: underline;
+}
+
+label {
+  font-size: 1.75em;
+  color: #393e46;
+  margin-right: 35px;
+}
+
+select {
+  font-size: 1.5em;
+  color: #393e46;
+}
+
+button {
+  font-size: 1.5em;
+}
+
+/* Spacing */
+.header {
+  margin: 50px;
+}
+
+.qrow {
+  margin: 10px;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.results {
+  margin: 35px;
+}
+
+.form-control {
+  width: 60%;
+}
+
+
+/* Results visibility */
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
